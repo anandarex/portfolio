@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { IoClose } from 'react-icons/io5';
 import { BsGithub, BsSpotify, BsFilePdf, BsStickyFill, BsCalendar } from 'react-icons/bs';
-import { FaLink } from 'react-icons/fa';
+import { FaLink, FaWhatsapp } from 'react-icons/fa';
 import { RiTerminalFill } from 'react-icons/ri';
 
 interface HelpModalProps {
@@ -32,39 +32,39 @@ export default function HelpModal({
       animation: "animate-fade-in",
       button: null
     },
-    {
-      title: "The Terminal",
-      content: "The MacTerminal is your AI-powered assistant. Ask it anything about me, my skills, or my experience!",
-      animation: "animate-slide-in-right",
-      button: {
-        text: "Open Terminal",
-        icon: <RiTerminalFill size={20} />,
-        onClick: () => {
-          if (onTerminalClick) {
-            onTerminalClick();
-            handleClose();
-          }
-        }
-      }
-    },
+    // {
+    //   title: "The Terminal",
+    //   content: "The MacTerminal is your AI-powered assistant. Ask it anything about me, my skills, or my experience!",
+    //   animation: "animate-slide-in-right",
+    //   button: {
+    //     text: "Open Terminal",
+    //     icon: <RiTerminalFill size={20} />,
+    //     onClick: () => {
+    //       if (onTerminalClick) {
+    //         onTerminalClick();
+    //         handleClose();
+    //       }
+    //     }
+    //   }
+    // },
     {
       title: "Desktop Dock",
       content: "The dock at the bottom contains all the main features of my portfolio. Each icon represents a different section:",
       animation: "animate-slide-in-left",
       button: null,
       features: [
-        { icon: <BsGithub size={20} />, text: "GitHub Projects" },
+        // { icon: <BsGithub size={20} />, text: "GitHub Projects" },
         { icon: <BsStickyFill size={20} />, text: "Resume Notes" },
         { icon: <BsFilePdf size={20} />, text: "Resume Viewer" },
         { icon: <BsCalendar size={20} />, text: "Schedule a Call" },
-        { icon: <BsSpotify size={20} />, text: "Spotify Playlist" },
-        { icon: <FaLink size={20} />, text: "Contact Links" },
-        { icon: <RiTerminalFill size={20} />, text: "Terminal" }
+        // { icon: <BsSpotify size={20} />, text: "Spotify Playlist" },
+        { icon: <FaWhatsapp size={20} />, text: "Contact Links" },
+        // { icon: <RiTerminalFill size={20} />, text: "Terminal" }
       ]
     },
     {
       title: "Menu Bar",
-      content: "Use the menu bar to access my resume, projects, and contact information. Hover over my name for a cool surprise!",
+      content: "Use the menu bar to access my resume, projects, and contact information. Thank you :)",
       animation: "animate-slide-in-up",
       button: null
     }

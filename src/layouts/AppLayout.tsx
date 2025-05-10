@@ -76,27 +76,28 @@ export default function Desktop({ initialBg, backgroundMap }: AppLayoutProps) {
       content: "This is my Notes app where you can find detailed information about my education, experience, and skills. Feel free to explore!",
       action: () => {
         setShowNotes(false);
-        setShowGitHub(true);
-      },
-      buttonText: "Next: Projects"
-    },
-    {
-      title: "GitHub Projects",
-      content: "Here you can browse through my projects, see their structure, and check out the code. Each project has screenshots and links to the repository.",
-      action: () => {
-        setShowGitHub(false);
-        setShowTerminal(true);
-      },
-      buttonText: "Next: Terminal"
-    },
-    {
-      title: "Terminal",
-      content: "The terminal is an interactive way to learn more about me. Try asking questions like 'What are your skills?' or 'Tell me about your experience'",
-      action: () => {
-        setShowTerminal(false);
+        // setShowGitHub(true);
+        setShowNotes(false);
       },
       buttonText: "Next: Explore"
     },
+    // {
+    //   title: "GitHub Projects",
+    //   content: "Here you can browse through my projects, see their structure, and check out the code. Each project has screenshots and links to the repository.",
+    //   action: () => {
+    //     setShowGitHub(false);
+    //     setShowTerminal(true);
+    //   },
+    //   buttonText: "Next: Terminal"
+    // },
+    // {
+    //   title: "Terminal",
+    //   content: "The terminal is an interactive way to learn more about me. Try asking questions like 'What are your skills?' or 'Tell me about your experience'",
+    //   action: () => {
+    //     setShowTerminal(false);
+    //   },
+    //   buttonText: "Next: Explore"
+    // },
     {
       title: "Explore",
       content: "Now that you've seen the basics, feel free to explore the rest of the portfolio from the dock below. I've got some cool projects and information waiting for you!",

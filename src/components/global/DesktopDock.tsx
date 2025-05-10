@@ -1,7 +1,7 @@
 import { useState, useEffect, useRef } from 'react';
 import { BsGithub, BsSpotify, BsFilePdf, BsStickyFill, BsLinkedin, BsCalendar } from 'react-icons/bs';
 import { IoIosCall, IoIosMail } from 'react-icons/io';
-import { FaLink } from 'react-icons/fa';
+import { FaLink, FaPhone, FaWhatsapp } from 'react-icons/fa';
 import ResumeViewer from './ResumeViewer';
 import SpotifyPlayer from './SpotifyPlayer';
 import { userConfig } from '../../config/userConfig';
@@ -76,7 +76,7 @@ const DesktopDock = ({ onTerminalClick, onNotesClick, onGitHubClick, activeApps 
       className="absolute bottom-20 left-1/2 transform -translate-x-1/2 bg-gray-800/90 w-30 backdrop-blur-sm rounded-lg p-4 shadow-xl"
     >
       <div className="grid grid-cols-1 gap-y-2">
-        <a
+        {/* <a
           href={userConfig.social.linkedin}
           target="_blank"
           rel="noopener noreferrer"
@@ -84,8 +84,8 @@ const DesktopDock = ({ onTerminalClick, onNotesClick, onGitHubClick, activeApps 
         >
           <BsLinkedin size={20} />
           <span>LinkedIn</span>
-        </a>
-        <a
+        </a> */}
+        {/* <a
           href={userConfig.social.instagram}
           target="_blank"
           rel="noopener noreferrer"
@@ -93,19 +93,22 @@ const DesktopDock = ({ onTerminalClick, onNotesClick, onGitHubClick, activeApps 
         >
           <BsGithub size={20} />
           <span>GitHub</span>
-        </a>
+        </a> */}
         <a
-          href={`mailto:${userConfig.contact.email}`}
+        href={`mailto:${userConfig.contact.email}`}
+          // href={`mailto:${userConfig.contact.email}`}
           className="flex items-center gap-2 text-gray-300 hover:text-white"
         >
-          <IoIosMail size={20} />
+          <IoIosMail size={20} /> 
           <span>Email</span>
         </a>
         <a
-          href={`tel:${userConfig.contact.phone}`}
+        //https://wa.me/{userConfig.contact.phone/?text=urlencodedtext
+        href={`https://wa.me/+6289618914666/?text=Hello`}
+          // href={`tel:${userConfig.contact.phone}`}
           className="flex items-center gap-2 text-gray-300 hover:text-white"
         >
-          <IoIosCall size={20} />
+          <FaWhatsapp size={20} />
           <span>Call</span>
         </a>
       </div>
@@ -189,15 +192,15 @@ const DesktopDock = ({ onTerminalClick, onNotesClick, onGitHubClick, activeApps 
               onMouseLeave={() => setHoveredIcon(null)}
               className="relative"
             >
-              <div className='w-12 h-12 bg-gradient-to-t from-purple-600 to-purple-400 rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 ease-out hover:scale-110 active:scale-95'>
-                <FaLink size={35} className='text-white' />
+              <div className='w-12 h-12 bg-gradient-to-t from-green-400 to-green-700 rounded-xl flex items-center justify-center shadow-lg transition-all duration-300 ease-out hover:scale-110 active:scale-95'>
+                <FaWhatsapp size={35} className='text-white' />
               </div>
               {hoveredIcon === 'links' && <Tooltip text='Contact Links' />}
               {showLinksPopup && <LinksPopup />}
             </button>
 
             {/* Terminal */}
-            <button
+            {/* <button
               onClick={onTerminalClick}
               onMouseEnter={() => setHoveredIcon('terminal')}
               onMouseLeave={() => setHoveredIcon(null)}
@@ -207,7 +210,7 @@ const DesktopDock = ({ onTerminalClick, onNotesClick, onGitHubClick, activeApps 
                 <RiTerminalFill size={35} className='text-white' />
               </div>
               {hoveredIcon === 'terminal' && <Tooltip text='Terminal' />}
-            </button>
+            </button> */}
           </div>
         </div>
       </div>

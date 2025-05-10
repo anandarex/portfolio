@@ -76,7 +76,7 @@ Role: ${userConfig.role}
 Location: ${userConfig.location}
 
 Contact: ${userConfig.contact.email}
-GitHub: ${userConfig.social.github}
+
 
 Ask me anything!
 `;

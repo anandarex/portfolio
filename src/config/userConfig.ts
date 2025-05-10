@@ -10,24 +10,26 @@ import foodies from './projects/foodies.json';
 export const userConfig = {
     // Personal Information
     name: 'Fina Mardiana',
-    role: 'Barista',
-    location: 'Tangerang Selatan, Banten',
+    role: 'Job Seeker',
+    location: 'Tangerang Selatan, Banten, Indonesia',
     email: 'finamardiana131@gmail.com',
-    website: '#',
-    roleFocus: 'Membuat Kopi',
+    website: 'FinaM131',
+    roleFocus: 'Barista, Admin',
     age: 21,    
 
     // Social Links
     social: {
         instagram: 'https://www.instagram.com/finaa.marr/',
-        linkedin: '#', // Add your LinkedIn URL
+        linkedin: 'https://baristaresume.vercel.app/', // Add your LinkedIn URL
+        github: '#',
+        creatorresume : 'https://anandarex-portfolio.vercel.app/',
     },
 
     // Contact Information
     contact: {
         email: 'finamardiana131@gmail.com',
-        phone: '0896', // Add your phone number
-        calendly: 'https://calendly.com/aabdoo2304', // Add your Calendly URL
+        phone: '+6289618914666', // Add your phone number
+        calendly: 'https://calendly.com/finamardiana131/30min', // Add your Calendly URL
     },
 
     // Spotify Configuration
@@ -38,7 +40,7 @@ export const userConfig = {
 
     // Resume Configuration
     resume: {
-        url: '#',
+        url: 'https://drive.google.com/file/d/1Ym3uUr_YEQjf4UG1cc7DODz8U_BlPnU1/view?usp=sharing',
         localPath: '/resume.pdf',
     },
 
@@ -48,12 +50,12 @@ export const userConfig = {
             degree: "SMK Letris Indonesia 2",
             major: "Kesehatan",
             institution: "Keperawatan",
-            location: "Pamulang, Tangerang Selatan",
+            location: "Tangerang Selatan, Indonesia",
             year: "2019-2021",
-            description: "Relevant coursework: Data Structures, Algorithms, Database Management, Software Engineering, Biomedical Informatics, Artificial Intelligence, Machine Learning, Deep Learning, Computer Vision, Natural Language Processing, Computer Networks, Operating Systems, Computer Architecture, Computer Organization, Computer Security, Computer Graphics, Computer Systems, Computer Networks, Operating Systems, Computer Architecture, Computer Organization, Computer Security, Computer Graphics, Computer Systems",
+            description: "SMK ",
             images: [
                 {
-                    url: "https://smkletris2pamulang.sch.id/ltrs2/",
+                    url: "https://smkkesehatanletris2pamulang.sch.id/media_library/images/8d0e71eafbed5df62a80b536c3cdfd34.png",
                     alt: "SMK Letris Indonesia 2",
                     description: "SMK Letris Indonesia 2 Campus"
                 }
@@ -63,58 +65,30 @@ export const userConfig = {
 
     courses: [
         {
-            title: "IOT",
-            description: "IOT course",
-            institution: "ITI",
-            location: "Cairo, Egypt",
-            year: "2023-2024",
+            title: "Keperawatan",
+            description: "SMK Jurusan Keperawatan",
+            institution: "SMK Letris Indonesia 2",
+            location: "Tangerang Selatan, Indonesia",
+            year: "2019-2021",
             images: [
                 {
-                    url: "https://iti.gov.eg/assets/images/ColoredLogo.svg",
-                    alt: "ITI",
+                    url: "https://smkletris2pamulang.sch.id/ltrs2/asset/logo/Untitled-11.png",
+                    alt: "Letris",
                     // description: "ITI Campus"
                 }
             ]
         },
-        {
-            title: ".NET full stack course",
-            description: ".NET full stack course",
-            institution: "Digital Egypt Pioneers Initiative - DEPI",
-            location: "Cairo, Egypt",
-            year: "2024",
-            images: [
-                {
-                    url: "https://depi.gov.eg/assets/images/proAr.png",
-                    alt: "DEPI",
-                    // description: "DEPI Logo"
-                }
-            ]
-        }
     ],
 
     skills: [
-        "C#",
-        "ASP.NET Core",
-        "Entity Framework",
-        "SQL Server",
-        "C++",
-        "Python",
-        "Java",
-        "Spring Boot",
-        "Hibernate",
-        "JavaScript",
-        "TypeScript",
-        "React",
-        "Node.js",
-        "MongoDB",
-        "MySQL",
-        "PostgreSQL",
-        "Docker",
-        "MongoDB",
-        "SQL Server",
-        "MySQL",
-        "PostgreSQL",
-        "Docker",
+        "Barista",
+        "Latte Art",
+        "Manual Brew",
+        "Admin",
+        "Excel",
+        "Moka Post",
+        "Memastikan Stok Bahan Baku Tersedia",
+        "Komunikasi",
     ],
 
     extraCurricularRoles: [
@@ -479,57 +453,27 @@ export const userConfig = {
     // Professional Experience
     experience: [
         {
-            title: "Academy Full Stack Developer",
-            company: "Luftborn",
-            location: "Cairo, Egypt",
-            period: "July 2024 - October 2024",
-            description: "Working on a full stack web application for a client using Angular, React, .NET, Entity Framework, SQL Server, Bootstrap, and jQuery.",
-            technologies: [".NET", "Entity Framework", "SQL Server", "Angular", "React", "Bootstrap", "jQuery"],
+            title: "Head Barista",
+            company: "Kenduri Coffee",
+            location: "Pamulang, Tangerang Selatan, Banten, Indonesia",
+            period: "Mei 2023 - April 2025",
+            description: "Bekerja Sebagai Barista dan Head Barista Di Kenduri Coffee Pamulang",
+            technologies: ["Barista", "Admin", "Latte Art", "Excel", "Moka Post", "Stok Purchasing"],
             images: [
                 {
-                    url: "https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/277727078_119097457389244_7717309927402528390_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=rvNpB-9dCAoQ7kNvwHeda0X&_nc_oc=Adk8Qg0h-4iVQGhQc5-3sXR9TAe3QxNy92vyJ3G7dWl2r0Is9MhcHn2t3A7PDOe4Qvk&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&_nc_gid=oM0aNre6tagZivjrXfzsVA&oh=00_AfHRaHWXsIyHB16sr_Oi3DiU-tA--5cznxWLBv0Cwpg8rg&oe=6806F746",
-                    alt: "Luftborn",
+                    url: "https://images.glints.com/unsafe/320x0/glints-dashboard.oss-ap-southeast-1.aliyuncs.com/company-logo/7e419bbf0c5be8b08ae52c5859abcd68.png",
+                    alt: "KenduriCoffee",
                     // description: "Luftborn Logo"
                 }
             ]
         },
-        {
-            title: "Junior Research Assistant",
-            company: "Nile University",
-            location: "Cairo, Egypt",
-            period: "Summer 2023",
-            description: "Assisted in the development of internal software tools using ASP.NET Core. Implemented new features and fixed bugs in existing applications.",
-            technologies: ["C#", "ASP.NET Core", "Entity Framework", "SQL Server", "Bootstrap"],
-            images: [
-                {
-                    url: "https://scontent.fcai19-7.fna.fbcdn.net/v/t39.30808-6/472203136_910754741241302_6191814665042927988_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=Za97Y-3hoJoQ7kNvwF4tk1J&_nc_oc=AdkqMOqp7uGvmr5oQdXYQGl081OjyX3ZSV0sd8wSjmufGHxR2bTsh0LiY9NMw2vsg38&_nc_zt=23&_nc_ht=scontent.fcai19-7.fna&_nc_gid=GY4OjmS0blsyGjzyS8wFjQ&oh=00_AfENYmSgWzpYXUFe77GQh_u3yM2O6_tMVQR7Rp3mzfbUJw&oe=6806D215",
-                    alt: "NU Research",
-                    // description: "Working on .NET projects during the internship"
-                }
-            ]
-        },
-        {
-            title: "Junior Teaching Assistant",
-            company: "Nile University",
-            location: "Cairo, Egypt",
-            period: "Spring 2022, Fall 2022, Spring 2023, Fall 2023, Spring 2024",
-            description: "Assisted in teaching courses to students, helped them with their assignments and projects, and graded their exams and assignments.",
-            technologies: ["C++", "C#", "Java", "Python", "SQL", "HTML", "CSS", "JavaScript", "React", "MongoDB", "MySQL", "Docker"],
-            images: [
-                {
-                    url: "https://top50women.com/wp-content/uploads/2023/08/Nile-university-1.jpg",
-                    alt: "Nile University",
-                    // description: "Working on .NET projects during the internship"
-                }
-            ]
-        }
     ],
 
     // SEO Configuration
     seo: {
         title: 'Fina Mardiana - Welcome',
         description: 'Selamat Datang di Website Portofolio Fina Mardiana',
-        keywords: ['Barista', 'React', 'Node.js', 'Lowongan Kerja', 'Indonesia'],
+        keywords: ['Barista', 'React', 'Node.js', 'Lowongan Kerja', 'Indonesia','Kenduri Coffee','Kenduri Coffee Pamulang'],
     },
 
     // Theme Configuration

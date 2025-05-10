@@ -279,7 +279,7 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
 
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 {/* Competitions */}
-                <div
+                {/* <div
                     className="bg-gray-800/50 p-4 rounded-lg cursor-pointer hover:bg-gray-700/50 transition-colors"
                     onClick={() => handleSectionClick('competitions')}
                 >
@@ -290,7 +290,7 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                         <h3 className="text-xl font-semibold text-gray-200">Competitions</h3>
                     </div>
                     <p className="text-gray-400">View my competition history and achievements</p>
-                </div>
+                </div> */}
 
                 {/* Education */}
                 <div
@@ -320,7 +320,7 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                     <p className="text-gray-400">Explore my professional work experience</p>
                 </div>
                 {/* Extracurricular Roles */}
-                <div
+                {/* <div
                     className="bg-gray-800/50 p-4 rounded-lg cursor-pointer hover:bg-gray-700/50 transition-colors"
                     onClick={() => handleSectionClick('roles')}
                 >
@@ -331,10 +331,10 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                         <h3 className="text-xl font-semibold text-gray-200">Extracurricular Roles</h3>
                     </div>
                     <p className="text-gray-400">My involvement in student activities and roles</p>
-                </div>
+                </div> */}
 
                 {/* Extracurricular Activities */}
-                <div
+                {/* <div
                     className="bg-gray-800/50 p-4 rounded-lg cursor-pointer hover:bg-gray-700/50 transition-colors"
                     onClick={() => handleSectionClick('activities')}
                 >
@@ -345,7 +345,7 @@ const NotesApp = ({ isOpen, onClose }: NotesAppProps) => {
                         <h3 className="text-xl font-semibold text-gray-200">Extracurricular Activities</h3>
                     </div>
                     <p className="text-gray-400">My participation in events and activities</p>
-                </div>
+                </div> */}
                 {/* Courses */}
                 <div
                     className="bg-gray-800/50 p-4 rounded-lg cursor-pointer hover:bg-gray-700/50 transition-colors"
